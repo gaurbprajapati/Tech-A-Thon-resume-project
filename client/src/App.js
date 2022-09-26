@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 
-      <section style={{ backgroundColor: 'pick' }}>
+      <section style={{ backgroundColor: 'white' }}>
 
         <BrowserRouter>
           <Routes>

@@ -28,13 +28,13 @@
 } */
 
 .layout{
-    height: 150vh;
+    height: 200vh;
     padding: 20px 50px;
 }
 
 .header{
     height: 7%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #EAF6F6;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -42,12 +42,13 @@
     padding: 10px 20px;
 }
 .header h1{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
+    font-style: bold;
 }
 .header button{
     border: 1px solid white !important;
-    color: rgba(255, 255, 255, 0.589) !important;
+    /* color: rgba(255, 255, 255, 0.5) !important; */
 }
 .content{
     height: 87%;
