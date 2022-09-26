@@ -40,7 +40,7 @@ function Register() {
             <h1 style={{ marginRight: '90px', color: 'white', fontSize: '300%' }} >WELCOME TO TEAM VICTOR <br /> RESUME BUILDER</h1>
 
             <Form layout='vertical' onFinish={onfinish}>
-                <h1>Login</h1>
+                <h1>REGISTER</h1>
                 <hr />
                 <Form.Item name='username' label='Username'  >
                     <Input />
