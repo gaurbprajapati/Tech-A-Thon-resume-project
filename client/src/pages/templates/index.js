@@ -31,7 +31,7 @@ function Templates() {
         <DefaultLayout>
             <div className="d-flex justify-content-end my-5 mx-5">
                 <Button className="back-btn" onClick={() => navigate('/home')}>Back</Button>
-                <Button className="mx-5" onClick={handlePrint}>Print</Button>
+                <Button className="mx-5" onClick={handlePrint}>Download</Button>
                 <Button className="back-btn" onClick={func} >QR CODE</Button>
             </div>
             <div ref={componentRef}>{gettemplate()}</div>
